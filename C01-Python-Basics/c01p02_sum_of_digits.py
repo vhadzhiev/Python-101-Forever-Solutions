@@ -1,7 +1,7 @@
 def sum_of_digits(n):
     number = abs(n)
     result = 0
-    while number:
+    while number != 0:
         result += abs(number % 10)
         number = number // 10
 
