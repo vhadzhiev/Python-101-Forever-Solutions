@@ -10,7 +10,7 @@ def fact_digits(number):
     return total
 
 
-print(fact_digits(101))
-print(fact_digits(111))
-print(fact_digits(145))
-print(fact_digits(999))
+print(fact_digits(101) == 3)
+print(fact_digits(111) == 3)
+print(fact_digits(145) == 145)
+print(fact_digits(999) == 1088640)
